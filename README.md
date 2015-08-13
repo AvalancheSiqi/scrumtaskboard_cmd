@@ -19,12 +19,12 @@ APIs
 ---
 | Input  | Description |
 | ------ | ----------- |
-| create story <id> <description>  | Create a new user story with the given ID and description  |
+| create story \<id\> \<description\>  | Create a new user story with the given ID and description  |
 | list stories  | List all user stories that have been created, including Id’s  |
-| delete story <id>  | Delete the user story with the given ID  |
-| complete story <id>  | Mark the user story with the given ID as completed  |
-| create task <storyId> <id> <description>  | Create a new task with the given task ID and description, and associate it with the given storyId  |
-| list tasks <storyId>  | List all the tasks associated with the given storyId  |
-| delete task <storyId> <id>  | Deletes the task with the given ID associated with the given storyId  |
-| move task <storyId> <id> <new column>  | Move the task to the new column (To Do, In Process, etc)  |
-| update task <storyId> <id> <new description>  | Update/Modify a task’s description  |
+| delete story \<id\>  | Delete the user story with the given ID  |
+| complete story \<id\>  | Mark the user story with the given ID as completed  |
+| create task \<storyId\> \<id\> \<description\>  | Create a new task with the given task ID and description, and associate it with the given storyId  |
+| list tasks \<storyId\>  | List all the tasks associated with the given storyId  |
+| delete task \<storyId\> \<id\>  | Deletes the task with the given ID associated with the given storyId  |
+| move task \<storyId\> \<id\> \<new column\>  | Move the task to the new column (To Do, In Process, etc)  |
+| update task \<storyId\> \<id\> \<new description\>  | Update/Modify a task’s description  |
